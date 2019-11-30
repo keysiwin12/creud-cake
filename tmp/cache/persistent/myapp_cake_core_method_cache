@@ -1,0 +1,2 @@
+1575077289
+a:3:{i:0;b:0;s:4:"name";a:6:{s:32:"b1ab8cb86b12f89fc49838e9e68550a5";s:8:"`prueba`";s:32:"bfe1479ea05f97a1718e1a09ea0638a7";s:10:"`students`";s:32:"4c87fc9ea38888eac4db1a071758c28b";s:14:"`Student`.`id`";s:32:"ca55fa8791891afbe68536da743fe088";s:18:"`Student`.`nombre`";s:32:"0a0d5f8a4053de3eb58eb318fe3a7479";s:21:"`Student`.`last_name`";s:32:"46e574ea4a2ac80e17dd32054f637ef4";s:9:"`Student`";}s:6:"fields";a:1:{s:32:"f2ea24af53e9aec2329d48beea75c1a1";a:3:{i:0;s:14:"`Student`.`id`";i:1;s:18:"`Student`.`nombre`";i:2;s:21:"`Student`.`last_name`";}}}

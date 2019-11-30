@@ -1,0 +1,1109 @@
+2019-11-28 02:27:56 Error: [MissingControllerException] Controller class StudentsController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentsController',
+  'plugin' => NULL,
+)
+Request URL: /cake2-php/cakephpv2/students
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-11-28 02:34:27 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /cake2-php/cakephpv2/students
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-28 02:34:34 Error: [ParseError] syntax error, unexpected ';', expecting ')'
+Request URL: /cake2-php/cakephpv2/students
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-28 02:34:56 Error: [MissingActionException] Action StudentsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'index',
+)
+Request URL: /cake2-php/cakephpv2/students
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-28 02:34:57 Error: [MissingActionException] Action StudentsController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'index',
+)
+Request URL: /cake2-php/cakephpv2/students
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-28 02:37:10 Error: [MissingViewException] View file "Students\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Students\\index.ctp',
+)
+Request URL: /cake2-php/cakephpv2/students
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(470): View->_getViewFileName('Students\\index')
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-28 02:40:07 Error: [MissingViewException] View file "Students\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Students\\index.ctp',
+)
+Request URL: /cake2-php/cakephpv2/students
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(470): View->_getViewFileName('Students\\index')
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-28 02:53:06 Error: [MissingActionException] Action StudentsController::agregar() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'agregar',
+)
+Request URL: /cake2-php/cakephpv2/students/agregar
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-28 02:53:29 Error: [MissingActionException] Action StudentsController::agregar2() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'agregar2',
+)
+Request URL: /cake2-php/cakephpv2/students/agregar2
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-28 02:53:31 Error: [MissingActionException] Action StudentsController::agregar() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'agregar',
+)
+Request URL: /cake2-php/cakephpv2/students/agregar
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-28 02:54:07 Error: [MissingViewException] View file "Students\agregar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Students\\agregar.ctp',
+)
+Request URL: /cake2-php/cakephpv2/students/agregar
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(470): View->_getViewFileName('Students\\agrega...')
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-28 03:12:59 Error: [ParseError] syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /cake2-php/cakephpv2/students/agregar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-28 03:13:35 Error: [ParseError] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /cake2-php/cakephpv2/students/agregar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-28 03:13:42 Error: [ParseError] syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+Request URL: /cake2-php/cakephpv2/students/agregar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-28 03:15:17 Error: [MissingControllerException] Controller class AgregarController could not be found.
+Exception Attributes: array (
+  'class' => 'AgregarController',
+  'plugin' => NULL,
+)
+Request URL: /cake2-php/cakephpv2/agregar
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-11-29 00:47:19 Error: [MissingControllerException] Controller class AgregarController could not be found.
+Exception Attributes: array (
+  'class' => 'AgregarController',
+  'plugin' => NULL,
+)
+Request URL: /cake2-php/cakephpv2/agregar
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-11-29 01:30:12 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 01:43:53 Error: [ParseError] syntax error, unexpected '<'
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 01:44:17 Error: [ParseError] syntax error, unexpected '?>'
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 01:44:18 Error: [ParseError] syntax error, unexpected '?>'
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 01:44:18 Error: [ParseError] syntax error, unexpected '?>'
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 01:44:18 Error: [ParseError] syntax error, unexpected '?>'
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 01:44:19 Error: [ParseError] syntax error, unexpected '?>'
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 01:44:19 Error: [ParseError] syntax error, unexpected '?>'
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 01:49:13 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 01:49:37 Error: [ParseError] syntax error, unexpected '?>'
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 01:49:37 Error: [ParseError] syntax error, unexpected '?>'
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 01:49:45 Error: [ParseError] syntax error, unexpected ';'
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 01:49:46 Error: [ParseError] syntax error, unexpected ';'
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 02:14:02 Error: [MissingActionException] Action StudentsController::editar() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'editar',
+)
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-29 02:14:43 Error: [MissingViewException] View file "Students\editar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Students\\editar.ctp',
+)
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(470): View->_getViewFileName('Students\\editar')
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:19:55 Error: [ArgumentCountError] Too few arguments to function StudentsController::editar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 [internal function]: StudentsController->editar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:19:56 Error: [ArgumentCountError] Too few arguments to function StudentsController::editar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 [internal function]: StudentsController->editar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:19:56 Error: [ArgumentCountError] Too few arguments to function StudentsController::editar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 [internal function]: StudentsController->editar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:20:03 Error: [ArgumentCountError] Too few arguments to function StudentsController::editar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 [internal function]: StudentsController->editar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:20:04 Error: [ArgumentCountError] Too few arguments to function StudentsController::editar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 [internal function]: StudentsController->editar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:20:13 Error: [ArgumentCountError] Too few arguments to function StudentsController::editar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 [internal function]: StudentsController->editar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:20:13 Error: [ArgumentCountError] Too few arguments to function StudentsController::editar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 [internal function]: StudentsController->editar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:20:30 Error: [ArgumentCountError] Too few arguments to function StudentsController::editar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 [internal function]: StudentsController->editar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:20:31 Error: [ArgumentCountError] Too few arguments to function StudentsController::editar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 [internal function]: StudentsController->editar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:20:31 Error: [ArgumentCountError] Too few arguments to function StudentsController::editar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 [internal function]: StudentsController->editar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:21:10 Error: [ArgumentCountError] Too few arguments to function StudentsController::editar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 [internal function]: StudentsController->editar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:21:10 Error: [ArgumentCountError] Too few arguments to function StudentsController::editar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 [internal function]: StudentsController->editar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:29:38 Error: [ArgumentCountError] Too few arguments to function StudentsController::editar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 [internal function]: StudentsController->editar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:40:27 Error: [ParseError] syntax error, unexpected '}', expecting ',' or ';'
+Request URL: /cake2-php/cakephpv2/students/editar/4
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 02:40:35 Error: [CakeException] Method save does not exist
+Request URL: /cake2-php/cakephpv2/students/editar/4
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\app\Controller\StudentsController.php(27): CakeRequest->__call('save', Array)
+#1 [internal function]: StudentsController->editar('4')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 02:40:40 Error: [CakeException] Method save does not exist
+Request URL: /cake2-php/cakephpv2/students/editar/4
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\app\Controller\StudentsController.php(27): CakeRequest->__call('save', Array)
+#1 [internal function]: StudentsController->editar('4')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 02:43:08 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /cake2-php/cakephpv2/students/editar/4
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 02:46:42 Error: [MissingActionException] Action StudentsController::2() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => '2',
+)
+Request URL: /cake2-php/cakephpv2/students/2
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-29 02:47:05 Error: [MissingActionException] Action StudentsController::editar2() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'editar2',
+)
+Request URL: /cake2-php/cakephpv2/students/editar2
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-29 02:49:44 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /cake2-php/cakephpv2/students
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 02:50:16 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /cake2-php/cakephpv2/students
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 02:50:17 Error: [ParseError] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ')'
+Request URL: /cake2-php/cakephpv2/students
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 02:50:49 Error: [MissingControllerException] Controller class StudentseditarController could not be found.
+Exception Attributes: array (
+  'class' => 'StudentseditarController',
+  'plugin' => NULL,
+)
+Request URL: /cake2-php/cakephpv2/studentseditar
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2019-11-29 02:50:56 Error: [ArgumentCountError] Too few arguments to function StudentsController::editar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/editar
+Stack Trace:
+#0 [internal function]: StudentsController->editar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 02:54:01 Error: [MissingActionException] Action StudentsController::5() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => '5',
+)
+Request URL: /cake2-php/cakephpv2/students/5
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-29 03:04:19 Error: [MissingActionException] Action StudentsController::eliminar() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'eliminar',
+)
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-29 03:05:28 Error: [ArgumentCountError] Too few arguments to function StudentsController::eliminar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: StudentsController->eliminar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 03:05:39 Error: [MissingViewException] View file "Students\eliminar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Students\\eliminar.ctp',
+)
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(470): View->_getViewFileName('Students\\elimin...')
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 03:05:48 Error: [MissingViewException] View file "Students\eliminar.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Students\\eliminar.ctp',
+)
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(470): View->_getViewFileName('Students\\elimin...')
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 03:08:14 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:08:22 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:08:23 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:08:23 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:08:59 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:08:59 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:09:00 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:09:00 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:09:00 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:09:01 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:09:10 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:09:10 Error: [ParseError] syntax error, unexpected ')'
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:09:17 Error: [ArgumentCountError] Too few arguments to function StudentsController::eliminar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: StudentsController->eliminar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 03:09:18 Error: [ArgumentCountError] Too few arguments to function StudentsController::eliminar(), 0 passed and exactly 1 expected
+Request URL: /cake2-php/cakephpv2/students/eliminar
+Stack Trace:
+#0 [internal function]: StudentsController->eliminar()
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2019-11-29 03:12:19 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /cake2-php/cakephpv2/students/eliminar/1
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:12:20 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /cake2-php/cakephpv2/students/eliminar/1
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:12:55 Error: [ParseError] syntax error, unexpected ';'
+Request URL: /cake2-php/cakephpv2/students/eliminar/1
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:14:38 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /cake2-php/cakephpv2/students/eliminar/2
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:14:39 Error: [ParseError] syntax error, unexpected '}'
+Request URL: /cake2-php/cakephpv2/students/eliminar/2
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:14:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /cake2-php/cakephpv2/students/eliminar/2
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Datasource\Database\Mysql.php(459): DboSource->execute('DELETE `Student...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Model.php(2723): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\Controller\StudentsController.php(44): Model->delete(Array)
+#5 [internal function]: StudentsController->eliminar('2')
+#6 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-11-29 03:15:43 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /cake2-php/cakephpv2/students/eliminar/2
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Datasource\Database\Mysql.php(459): DboSource->execute('DELETE `Student...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Model.php(2723): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\Controller\StudentsController.php(44): Model->delete(Array)
+#5 [internal function]: StudentsController->eliminar('2')
+#6 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-11-29 03:16:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /cake2-php/cakephpv2/students/eliminar/2
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Datasource\Database\Mysql.php(459): DboSource->execute('DELETE `Student...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Model.php(2723): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\Controller\StudentsController.php(44): Model->delete(Array)
+#5 [internal function]: StudentsController->eliminar('2')
+#6 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-11-29 03:16:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Array' in 'where clause'
+Request URL: /cake2-php/cakephpv2/students/eliminar/1
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Datasource\DboSource.php(502): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Datasource\DboSource.php(468): DboSource->_execute('DELETE `Student...', Array)
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Datasource\Database\Mysql.php(459): DboSource->execute('DELETE `Student...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Model\Model.php(2723): Mysql->delete(Object(Student), ' WHERE `Student...')
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\app\Controller\StudentsController.php(44): Model->delete(Array)
+#5 [internal function]: StudentsController->eliminar('1')
+#6 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(499): ReflectionMethod->invokeArgs(Object(StudentsController), Array)
+#7 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#8 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#9 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2019-11-29 03:23:47 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students/eliminar/2
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:23:48 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students/eliminar/2
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:23:52 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:24:23 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:24:24 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:24:24 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:24:24 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:25:32 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:25:32 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-29 03:25:33 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-30 00:49:29 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students/editar/5
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-30 00:49:33 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students/
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-30 00:53:04 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-30 00:53:38 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-30 00:53:39 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-30 00:53:39 Error: [ParseError] syntax error, unexpected '{', expecting '('
+Request URL: /cake2-php/cakephpv2/students
+Stack Trace:
+#0 [internal function]: App::load('StudentsControl...')
+#1 [internal function]: spl_autoload_call('StudentsControl...')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(266): class_exists('StudentsControl...')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(235): Dispatcher->_loadController(Object(CakeRequest))
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(158): Dispatcher->_getController(Object(CakeRequest), Object(CakeResponse))
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2019-11-30 00:55:57 Error: [MissingActionException] Action StudentsController::borrar() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'borrar',
+)
+Request URL: /cake2-php/cakephpv2/students/borrar/1
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-30 00:56:21 Error: [MissingActionException] Action StudentsController::borrar() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'borrar',
+)
+Request URL: /cake2-php/cakephpv2/students/borrar/1
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-30 00:56:56 Error: [MissingActionException] Action StudentsController::borrar() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'borrar',
+)
+Request URL: /cake2-php/cakephpv2/students/borrar/5
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-30 00:57:28 Error: [MissingActionException] Action StudentsController::borrar() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'borrar',
+)
+Request URL: /cake2-php/cakephpv2/students/borrar/2
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-30 00:57:56 Error: [MissingActionException] Action StudentsController::borrar() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'borrar',
+)
+Request URL: /cake2-php/cakephpv2/students/borrar/3
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-30 00:58:48 Error: [MissingActionException] Action StudentsController::borrar() could not be found.
+Exception Attributes: array (
+  'controller' => 'StudentsController',
+  'action' => 'borrar',
+)
+Request URL: /cake2-php/cakephpv2/students/borrar/3
+Stack Trace:
+#0 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2019-11-30 01:11:18 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /cake2-php/cakephpv2/students/agregar
+Stack Trace:
+#0 [internal function]: App::load('Student')
+#1 [internal function]: spl_autoload_call('Student')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Student')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Student')
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Student')
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Student', 'key')
+#6 C:\xampp\htdocs\cake2-php\cakephpv2\app\View\Students\agregar.ctp(4): FormHelper->create('Student')
+#7 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#11 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#13 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2019-11-30 01:11:19 Error: [ParseError] syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+Request URL: /cake2-php/cakephpv2/students/agregar
+Stack Trace:
+#0 [internal function]: App::load('Student')
+#1 [internal function]: spl_autoload_call('Student')
+#2 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Utility\ClassRegistry.php(146): class_exists('Student')
+#3 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\Helper\FormHelper.php(163): ClassRegistry::init('Student')
+#4 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\Helper\FormHelper.php(204): FormHelper->_getModel('Student')
+#5 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\Helper\FormHelper.php(354): FormHelper->_introspectModel('Student', 'key')
+#6 C:\xampp\htdocs\cake2-php\cakephpv2\app\View\Students\agregar.ctp(4): FormHelper->create('Student')
+#7 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(971): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(933): View->_evaluate('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\View\View.php(473): View->_render('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Controller\Controller.php(968): View->render(NULL, NULL)
+#11 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(200): Controller->render()
+#12 C:\xampp\htdocs\cake2-php\cakephpv2\lib\Cake\Routing\Dispatcher.php(167): Dispatcher->_invoke(Object(StudentsController), Object(CakeRequest))
+#13 C:\xampp\htdocs\cake2-php\cakephpv2\app\webroot\index.php(117): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
